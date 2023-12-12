@@ -9,9 +9,7 @@
 3. Lifting state up ( https://www.youtube.com/watch?v=rdwc4JmX_fU )
 4. Child, parents communication (inverse data flow)
 
-   ### Child Parents communication
-
-5. Toggling items.
+# A. Toggling items.
 
 ```
  function handleToggleItem(id) {
@@ -23,7 +21,7 @@
   }
 ```
 
-6. Delete items
+# B. Delete items
 
 ```
  function handleDeleteItem(id) {
@@ -31,7 +29,7 @@
   }
 ```
 
-7. Update items
+# C. Update items
 
 ```
  function handleAddItems(item) {
