@@ -40,6 +40,8 @@
 
 5. Derived state
 
+## Derived state comes into play when we need to calculate a value based on existing state or props.
+
 ```
 function Stats({ items }) {
   // console.log(items.length);
@@ -51,9 +53,13 @@ function Stats({ items }) {
       </p>
     );
 
+
+----------------- Derived state -------------------
   const numItems = items.length;
   const numPacked = items.filter((item) => item.packed).length;
   const percentage = Math.round((numPacked / numItems) * 100);
+-------------------------------------------------------
+
   return (
     <footer className='stats'>
       <em>
