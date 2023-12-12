@@ -37,3 +37,6 @@
   }
 
 ```
+
+5. Derived state
+   ![](image/Screenshot 2023-12-12 at 13.19.43.png)
